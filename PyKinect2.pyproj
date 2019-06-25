@@ -26,9 +26,14 @@
     <Compile Include="pykinect2/examples/PyKinectBodyGame.py" />
     <Compile Include="pykinect2/PyKinectRuntime.py" />
     <Compile Include="pykinect2/PyKinectV2.py" />
+    <Compile Include="pykinect2\PyKinectBodyGame.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pykinect2\" />
+    <Folder Include="pykinect2\examples\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
